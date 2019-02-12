@@ -1,0 +1,14 @@
+{
+  "name": "umbrellaNet",
+  "version": "0.0.0",
+  "description": "A p2p network, with some features.",
+  "main": "index.js",
+  "repository": "https://github.com/0x77dev/umbrellaNet",
+  "author": "Misha Marinenko <0x77dev@protonmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ip": "^1.1.5",
+    "p2p": "^0.10.2"
+  }
+}
