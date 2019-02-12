@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "umbrellanet",
+    "builds": [{
+        "src": "seedpeer.js",
+        "use": "@now/node"
+    }]
+}

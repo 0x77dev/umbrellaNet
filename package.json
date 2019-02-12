@@ -8,6 +8,8 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "ascii-progress": "^1.0.5",
+    "express": "^4.16.4",
     "ip": "^1.1.5",
     "p2p": "^0.10.2"
   }

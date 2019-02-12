@@ -6,6 +6,12 @@ let peerToPeer = require("./core/p2p.lib"),
         port: 4000
     }),
     repl = require("repl"),
-    cli = repl.start("umbrella> ");
+    cli = repl.start("umbrella> "),
+    ProgressBar = require('ascii-progress'),
+    bar = new ProgressBar({
+        schema: 'Bootstrapping... :bar.gradient(red,blue)',
+        total: 10
+    });
 
 cli.context.p2p = p2p;
+cli.context.bar = bar;
